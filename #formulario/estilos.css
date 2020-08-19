@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #022340;
+    color: #BF8A49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario{
+    width: 390px;
+    background: #033159;
+    padding: 40px 20px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type="text"]{
+    width: 155%;
+    background: none;
+    border: 1px solid #BF8A49;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8A49;
+}
+input[type="password"]{
+    width: 155%;
+    background: none;
+    border: 1px solid #BF8A49;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8A49;
+}
+input[type="radio"]{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+input[type="email"]{
+    width: 155%;
+    background: none;
+    border: 1px solid #BF8A49;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8A49;
+}
+select[class="seleccion"]{
+    width: 155%;
+    background: #022340;
+    border: 1px solid #BF8A49;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8A49;
+}
+input[type="phone"]{
+    width: 155%;
+    background: none;
+    border: 1px solid #BF8A49;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #BF8A49;
+}
+input[type="submit"]{
+    background: goldenrod;
+    width: 155%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #022340;
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+background: gold;
+transition: 0.6s;
+}
+::placeholder{
+    color: white;
+}
+input[type="reset"]{
+    background: goldenrod;
+    width: 155%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    color: #022340;
+    font-size: 20px;
+}
+input[type="reset"]:hover{
+background: gold;
+transition: 0.6s;
+}
